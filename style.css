@@ -1,0 +1,114 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: linear-gradient(#d60270, #75096e, #0038a8);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: white;
+}
+
+h1 {
+  border-bottom: solid 5px #d60270;
+  padding-bottom: 2%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  background-image: linear-gradient(#18251c, #101913);
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 4%;
+}
+
+b {
+  color: #d60270;
+}
+
+a {
+  color: aqua;
+}
+
+a:hover {
+  background-color: #75096e;
+}
+
+#blurb:hover {
+  background-color: #d60270;
+}
+
+.box p {
+  border-left: solid 5px #d60270;
+  padding-left: 2%;
+  width: 95%;
+  font-size: 16px;
+}
+
+.long-pic {
+  width: 100%;
+}
+
+.short-pic {
+  width: 90%;
+}
+
+img {
+  border: dotted 1px white;
+}
+
+.sidebar {
+  grid-column: 1 / 2;
+  position: sticky;
+  top: 0;
+}
+
+.title {
+  grid-column: 2 / 4;
+}
+
+.one {
+  grid-column: 2 / 4;
+}
+
+.two {
+  grid-column: 2 / 3;
+}
+
+.three {
+  grid-column: 3 / 4;
+}
+
+.four {
+  grid-column: 2 / 3;
+}
+
+.five {
+  grid-column: 3 / 4;
+}
+
+.six {
+  grid-column: 2 / 4;
+}
+
+.seven {
+  grid-column: 2 / 3;
+}
+
+.eight {
+  grid-column: 3 / 4;
+}
+
+.nine {
+  grid-column: 2 / 4;
+}
+
+footer {
+  grid-column: 1 / 4;
+  font-size: 12px;
+  text-align: center;
+}
